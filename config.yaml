@@ -14,7 +14,7 @@ dayCheckInterval: 10
 timezone: "America/Toronto"
 
 # Posts from how many days ago are you willing to backpost when the bot starts
-dayCutOff: 7
+dayCutOff: 1
 
 # Set to true to add all posts to the db without posting them. Good to set for one run to clear out backposts if you
 # dont want any old posts posted when the bot is first ran. Set to false to post normally
