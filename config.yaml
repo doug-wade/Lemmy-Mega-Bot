@@ -49,6 +49,7 @@ instances:
 
     seattlekraken:
       - "davy_jones_locker_room"
+      - "seattle_times_kraken"
 
 # The rss feeds used to pull posts from
 feeds:
@@ -60,6 +61,9 @@ feeds:
 
   seattle_times_reign:
     url: 'https://www.seattletimes.com/reign/feed/'
+
+  seattle_times_kraken:
+    url: 'https://www.seattletimes.com/sports/kraken/feed/'
 
   sounder_at_heart_reign:
     url: 'https://www.sounderatheart.com/tag/seattle-reign/rss/'
