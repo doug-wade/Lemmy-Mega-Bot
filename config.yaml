@@ -34,30 +34,45 @@ postSleepDuration: 5000
 
 # The instances and communities used by the bot
 instances:
-  programming.dev: # The instance name
-    godot: # The community slug (value in url) in that instance
-      - "godot" # The feed to use (do a new line with a dash in front for each feed)
+  lemmy.world: # The instance name
+    ballard_fc: # The community slug (value in url) in that instance
+      - "ballard_fc" # The feed to use (do a new line with a dash in front for each feed)
 
-    unreal_engine: # Another community in the instance
-      - "unreal"
+    reign_fc:
+      - "seattle_times_reign"
+      - "sounder_at_heart_reign"
 
-    unity:
-      - "unity"
+    soundersfc:
+      - "seattle_times_sounders"
+      - "sounder_at_heart_transfer_tracker"
+      - "sounder_at_heart_analysis"
+
+    seattlekraken:
+      - "davy_jones_locker_room"
 
 # The rss feeds used to pull posts from
 feeds:
-  godot: # The name of the feed (used in the instances section to mark feed to use)
-    url: "https://godotengine.org/rss.xml"
-    pinCategories: # If a bot has a category section that lists this category, pin it for the amount of days
-      - Release: 7
-      - Pre-release: 7
+  ballard_fc:
+    url: 'https://www.goballardfc.com/news/feed/'
 
-  unreal:
-    url: "https://www.unrealengine.com/en-US/rss"
-    content: "summary"
+  seattle_times_sounders:
+    url: 'https://www.seattletimes.com/sounders/feed/'
 
-  unity:
-    url: "https://blogs.unity3d.com/feed/"
+  seattle_times_reign:
+    url: 'https://www.seattletimes.com/reign/feed/'
+
+  sounder_at_heart_reign:
+    url: 'https://www.sounderatheart.com/tag/seattle-reign/rss/'
+
+  sounder_at_heart_transfer_tracker:
+    url: 'https://www.sounderatheart.com/tag/trades-transfers-rumors/rss/'
+
+  sounder_at_heart_analysis:
+    url: 'https://www.sounderatheart.com/tag/sounders-analysis/rss/'
+
+  davy_jones_locker_room:
+    url: 'https://www.seattletimes.com/reign/feed/'
+
 # Additional possible values:
 # joinfeeds will only include posts in common between the source feed and those in the list - It is processed first
 # exclude will remove posts from the feed based on the contents of another feed - It is processed second.
