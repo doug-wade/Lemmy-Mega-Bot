@@ -11,7 +11,7 @@ dayCheckInterval: 10
 
 # The timezone to use for the bot (as reference for unpinning posts at midnight)
 # You can see the options here: https://www.inmotionhosting.com/support/website/tz-ref-table/
-timezone: "America/Toronto"
+timezone: "America/Los_Angeles"
 
 # Posts from how many days ago are you willing to backpost when the bot starts
 dayCutOff: 1
