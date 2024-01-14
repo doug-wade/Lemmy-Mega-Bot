@@ -36,7 +36,7 @@ postSleepDuration: 5000
 parserOptions:
   timeout: 120000
   headers:
-    User-Agent: "Mozilla/5.0 (compatible; lemmy-mega-bot/1.0; +https://github.com/Ategon/Lemmy-Mega-Bot)"
+    User-Agent: "Mozilla/5.0 (compatible; lemmy-world-sports-bot/1.0; +https://github.com/doug-wade/Lemmy-Mega-Bot)"
 
 # ------------------------------------------------------------------------------
 
@@ -54,6 +54,7 @@ instances:
       - "seattle_times_sounders"
       - "sounder_at_heart_transfer_tracker"
       - "sounder_at_heart_analysis"
+      - "sounder_at_heart_news"
 
     seattlekraken:
       - "davy_jones_locker_room"
@@ -81,6 +82,9 @@ feeds:
 
   sounder_at_heart_analysis:
     url: 'https://www.sounderatheart.com/tag/sounders-analysis/rss/'
+
+  sounder_at_heart_news:
+    url: 'https://www.sounderatheart.com/tag/sounders-news/rss/'
 
   davy_jones_locker_room:
     url: 'https://www.seattletimes.com/reign/feed/'
