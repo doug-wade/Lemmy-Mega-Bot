@@ -9,6 +9,9 @@ import { readFileSync } from 'fs';
 let parser = new Parser({
     customFields: {
       item: ['image'],
+    },
+    headers: {
+      'User-Agent': "Mozilla/5.0 (compatible; lemmy-world-sports-bot/1.0; +https://github.com/doug-wade/Lemmy-Mega-Bot)"
     }
 });
 console.log(`${chalk.magenta('STARTED:')} Started Bot`)
