@@ -52,6 +52,10 @@ instances:
       - "davy_jones_locker_room"
       - "seattle_times_kraken"
 
+    nwsl:
+      - "just_womens_sports_nwsl"
+      - "equalizer_nwsl"
+
 # The rss feeds used to pull posts from
 feeds:
   ballard_fc:
@@ -80,6 +84,12 @@ feeds:
 
   davy_jones_locker_room:
     url: 'https://www.davyjoneslockerroom.com/rss'
+
+  just_womens_sports_nwsl:
+    url: 'https://justwomenssports.com/leagues/nwsl/feed'
+  
+  equalizer_nwsl:
+    url: 'https://equalizersoccer.com/category/nwsl-national-womens-soccer-league/feed'
 
 # Additional possible values:
 # joinfeeds will only include posts in common between the source feed and those in the list - It is processed first
