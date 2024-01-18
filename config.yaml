@@ -79,7 +79,7 @@ feeds:
     url: 'https://www.sounderatheart.com/tag/sounders-news/rss/'
 
   davy_jones_locker_room:
-    url: 'https://www.seattletimes.com/reign/feed/'
+    url: 'https://www.davyjoneslockerroom.com/rss'
 
 # Additional possible values:
 # joinfeeds will only include posts in common between the source feed and those in the list - It is processed first
