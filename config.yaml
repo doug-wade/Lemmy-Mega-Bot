@@ -55,6 +55,7 @@ instances:
     nwsl:
       - "just_womens_sports_nwsl"
       - "equalizer_nwsl"
+      - "pro_soccer_wire_nwsl"
 
 # The rss feeds used to pull posts from
 feeds:
@@ -90,6 +91,9 @@ feeds:
   
   equalizer_nwsl:
     url: 'https://equalizersoccer.com/category/nwsl-national-womens-soccer-league/feed'
+
+  pro_soccer_wire_nwsl:
+    url: 'https://prosoccerwire.usatoday.com/category/nwsl/feed'
 
 # Additional possible values:
 # joinfeeds will only include posts in common between the source feed and those in the list - It is processed first
