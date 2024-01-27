@@ -4,7 +4,7 @@
 markAsBot: true
 
 # How often to check for new posts in minutes
-postCheckInterval: 10
+postCheckInterval: 15
 
 # How often to check for a new day in minutes (for unpinning posts)
 dayCheckInterval: 10
@@ -57,6 +57,21 @@ instances:
       - "equalizer_nwsl"
       - "pro_soccer_wire_nwsl"
 
+    volleyball:
+      - "volleyball_mag_pro_women"
+    
+    mls:
+      - "guardian_mls"
+      - "sbi_mls"
+      - "pro_soccer_wire_mls"
+
+    ussocer:
+      - "sbi_usmnt"
+      - "sbi_uswnt"
+      - "stars_and_stripes_fc"
+      - "pro_soccer_wire_usmnt"
+      - "pro_soccer_wire_uswnt"
+
 # The rss feeds used to pull posts from
 feeds:
   ballard_fc:
@@ -94,6 +109,33 @@ feeds:
 
   pro_soccer_wire_nwsl:
     url: 'https://prosoccerwire.usatoday.com/category/nwsl/feed'
+
+  pro_soccer_wire_mls:
+    url: 'https://prosoccerwire.usatoday.com/category/mls/feed'
+
+  pro_soccer_wire_usmnt:
+    url: 'https://prosoccerwire.usatoday.com/category/usmnt/feed'
+
+  pro_soccer_wire_uswnt:
+    url: 'https://prosoccerwire.usatoday.com/category/uswnt/feed'
+
+  volleyball_mag_pro_women:
+    url: 'https://volleyballmag.com/category/indoor/pro-women/feed'
+
+  guardian_mls:
+    url: 'https://www.theguardian.com/football/mls/rss'
+
+  sbi_mls:
+    url: 'https://sbisoccer.com/tag/mls/feed'
+
+  sbi_usmnt:
+    url: 'https://sbisoccer.com/tag/usmnt/feed'
+
+  sbi_uswnt:
+    url: 'https://sbisoccer.com/tag/uswnt/feed'
+
+  stars_and_stripes_fc:
+    url: 'https://www.starsandstripesfc.com/rss/current.xml'
 
 # Additional possible values:
 # joinfeeds will only include posts in common between the source feed and those in the list - It is processed first
