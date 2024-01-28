@@ -65,7 +65,7 @@ instances:
       - "sbi_mls"
       - "pro_soccer_wire_mls"
 
-    ussocer:
+    ussoccer:
       - "sbi_usmnt"
       - "sbi_uswnt"
       - "stars_and_stripes_fc"
